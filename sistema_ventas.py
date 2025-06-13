@@ -61,6 +61,7 @@ def total_ingresos():
     total = (ventas1 * precio1) + (ventas2 * precio2) + (ventas3 * precio3)
     print("\n Total general del día: ${:,}".format(total))
 
+#Función menu para interactuar con el usuario
 def menu():
     while True:
         print("\n===== SISTEMA DE VENTAS DEV SENIOR CODE =====")
