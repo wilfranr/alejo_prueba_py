@@ -56,7 +56,7 @@ def consultar_ingresos():
     print(f"{programa1}: ${ingreso1:,}")
     print(f"{programa2}: ${ingreso2:,}")
     print(f"{programa3}: ${ingreso3:,}")
-
+#función total de ingresos
 def total_ingresos():
     total = (ventas1 * precio1) + (ventas2 * precio2) + (ventas3 * precio3)
     print("\n Total general del día: ${:,}".format(total))
